@@ -1,0 +1,8 @@
+.zevi_logo{
+    width: 5vw;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+    right: 5vh;
+    top: 5vh;
+}

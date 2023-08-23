@@ -1,0 +1,22 @@
+.garmentsMainContainer {
+    position: absolute;
+    /* z-index: 2; */
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex ;
+    flex-wrap: wrap
+}
+@media only screen and (max-width: 1000px) {
+    .img{
+        background-size:cover;
+        height: 100%;
+        width: auto;
+    }
+  }

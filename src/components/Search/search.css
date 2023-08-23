@@ -1,0 +1,25 @@
+.searchBoxContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20vh auto;
+}
+.searchBox{
+    width: 40vw;
+    height: 5vh;
+    padding: 1.2vh;
+    padding-left: 2.7vh;
+    font-size: 3vh ;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+}
+input:focus{
+    outline: none;
+}
+.searchIcon{
+    position: relative;
+    font-size: 4.5vh;
+    color: rgba(35, 12, 12, 0.584);
+    margin-left: 38%;
+}
